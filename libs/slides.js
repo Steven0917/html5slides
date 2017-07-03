@@ -10,7 +10,7 @@
   URL: http://code.google.com/p/html5slides/
 */
 
-var PERMANENT_URL_PREFIX = '../';
+var PERMANENT_URL_PREFIX = './libs/';
 
 var SLIDE_CLASSES = ['far-past', 'past', 'current', 'next', 'far-next'];
 
@@ -603,7 +603,7 @@ function initialize() {
   getCurSlideFromHash();
 
   if (window['_DEBUG']) {
-    PERMANENT_URL_PREFIX = '../';
+    PERMANENT_URL_PREFIX = './libs/';
   }
 
   if (window['_DCL']) {
