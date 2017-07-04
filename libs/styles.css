@@ -54,13 +54,13 @@ body {
   position: absolute;
   overflow: hidden;
 
-  width: 1100px;
+  width: 1300px;
   height: 700px;
 
   left: 50%;
   top: 50%;
 
-  margin-left: -550px;
+  margin-left: -650px;
   margin-top: -350px;
   
   padding: 40px 60px;
@@ -97,7 +97,7 @@ body {
 }
 
 .slides.template-default > article:not(.nobackground):not(.biglogo) {
-  background: url(../images/google-logo-small.png) 710px 625px no-repeat;  
+  background: url(../images/google-logo-small.png) 1010px 625px no-repeat;  
   
   background-color: white;  
 } 
